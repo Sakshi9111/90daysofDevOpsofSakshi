@@ -1,0 +1,18 @@
+Tasks
+
+1.Make 90 directories using either loops or commands with start day and end day variable using argument
+
+>touch createdirectory.sh
+>chmod 700 createdirectory.sh
+>nano createdirectory.sh
+    #!/bin/usr/env bash
+     for n in {01..90};
+     do
+         echo "Day$n"
+     done
+     
+>bash createdirectory.sh
+
+2.Script to backup all your work done till now
+
+
