@@ -2,7 +2,28 @@ Create DevOps on github
 What is difference between main branch and master branch
 Difference between git and github
 Git revert and Git reset
+>git revert is an undo option. It removes all the changes that single commit made to source code repo.
+Process
+     git add .
+     git status
+     git commit -m "commit "
+     git push origin develop
+     git reflog
+     now have to revert last commit
+     git revert commitid
+     git push 
+     done
+
 git rebase and git merge
 git stash
 cherry-pick
+
 difference between git pull and git fetch
+> git fetch command is used to download commits,files and refs from a remote repo into your local repo.You use it when you want to see what everybody are working on.Git isolates fetched content and has no effect on local repo. 
+> git fetch is safe that git pull as it will update changes on local repo content.
+
+Git add 
+> used to put files on local repo in staging
+
+Git restore
+>used to unstage the files in local repo
