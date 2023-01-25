@@ -1,0 +1,3 @@
+Create Dockerfile for Django application
+Build Image using Dockerfile and run the container
+Verify application is working
