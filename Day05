@@ -15,6 +15,10 @@ Process
      done
 
 git rebase and git merge
+>Merge preserves history as it happened,creating only one new merge commit.Has diamond history.
+>Rebase rewrites history, reapplying commits on top of another base branch.Has linear history.
+
+
 git stash
 cherry-pick
 
